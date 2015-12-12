@@ -9,5 +9,5 @@ var reducer = function(state={title:'Default title'},action){
 var reduxStore = redux.createStore(reducer)
 
 document.addEventListener('DOMContentLoaded', () => {
-  riot.mount('sample-output')
+  riot.mount('sample-output',{store:reduxStore})
 })
