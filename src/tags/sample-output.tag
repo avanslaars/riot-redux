@@ -3,6 +3,6 @@
   <script>
     this.opts.store.subscribe(function(){
       this.update()
-    })
+    }.bind(this))
   </script>
 </sample-output>
