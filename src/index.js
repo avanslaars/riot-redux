@@ -6,4 +6,6 @@ var reducer = function(state={title:'Default title'},action){
   return state
 }
 
+var reduxStore = redux.createStore(reducer)
+
 document.addEventListener('DOMContentLoaded', () => riot.mount('sample-output'))
