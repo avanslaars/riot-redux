@@ -4,6 +4,9 @@ require('./tags/sample-output.tag')
 
 var reducer = function(state={title:'Default title'},action){
   console.log(action)
+  switch(action.type){
+    
+  }
   return state
 }
 
