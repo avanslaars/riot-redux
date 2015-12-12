@@ -7,6 +7,8 @@ var reducer = function(state={title:'Default title'},action){
   switch(action.type){
     case 'CHANGE_TITLE':
       //return state with new title...
+    default:
+      //return current state
   }
   return state
 }
