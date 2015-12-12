@@ -7,7 +7,6 @@
   <script>
     var actions = require('../actions.js')
     changeTitle(){
-      // this.opts.store.dispatch({type:'CHANGE_TITLE',data:this.newTitle.value})
       this.opts.store.dispatch(actions.changeTitle(this.newTitle.value))
     }
   </script>
