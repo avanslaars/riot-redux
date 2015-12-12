@@ -7,7 +7,7 @@
 
   <script>
     changeTitle(){
-      console.log(this.newTitle.value)
+      
     }
   </script>
 </sample-output>
