@@ -3,5 +3,5 @@ module.exports = {
 }
 
 function changeTitle(newTitle){
-  return {}
+  return {type:'CHANGE_TITLE'}
 }
