@@ -6,6 +6,8 @@
   </form>
 
   <script>
-
+    changeTitle(){
+      
+    }
   </script>
 </sample-output>
