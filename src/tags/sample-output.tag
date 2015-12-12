@@ -7,7 +7,7 @@
 
   <script>
     changeTitle(){
-      this.opts.store.dispatch()
+      this.opts.store.dispatch({type:'CHANGE_TITLE'})
     }
   </script>
 </sample-output>
