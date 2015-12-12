@@ -4,4 +4,8 @@
     <input type="text" name="newTitle">
     <input type="submit" value="change title">
   </form>
+
+  <script>
+
+  </script>
 </sample-output>
