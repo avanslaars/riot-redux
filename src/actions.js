@@ -2,6 +2,6 @@ module.exports = {
   changeTitle: changeTitle
 }
 
-function changeTitle(){
-  
+function changeTitle(newTitle){
+
 }
