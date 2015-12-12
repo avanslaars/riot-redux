@@ -5,6 +5,7 @@
   </form>
 
   <script>
+    var actions = require('../actions.js')
     changeTitle(){
       // this.opts.store.dispatch({type:'CHANGE_TITLE',data:this.newTitle.value})
       this.opts.store.dispatch(/*action object*/)
