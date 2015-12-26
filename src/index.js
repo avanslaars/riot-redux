@@ -5,7 +5,8 @@ var thunk = require('redux-thunk')
 var reducer = function(state={tasks:[]},action){
   console.log(action)
   switch(action.type){
-
+    case 'TASKS_LOADED':
+      /*Handle tasks loaded*/
     default:
       return state
   }
