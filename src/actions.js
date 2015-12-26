@@ -56,5 +56,6 @@ function toggleComplete(id,isComplete){
   return function(dispatch, getState){
     var request = new XMLHttpRequest()
     request.open('PATCH', `http://localhost:3000/tasks/${id}`, true)
+    request.setRequestHeader("Content-Type","application/json")
   }
 }
