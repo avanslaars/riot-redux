@@ -1,5 +1,5 @@
 <todo-app>
-  <error-message></error-message>
+  <error-message message="Test Message"></error-message>
   <loading-indicator loading={this.state.isLoading}></loading-indicator>
   <task-form addtask={this.handleNewTask}></task-form>
   <task-list tasks={this.state.tasks} handlecheck={handleTaskCompletionChange}></task-list>
