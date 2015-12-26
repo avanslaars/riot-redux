@@ -40,6 +40,6 @@ function addTask(newTask){
 
     }
 
-    request.send()
+    request.send(JSON.stringify({name:newTask}))
   }
 }
