@@ -20,9 +20,6 @@ var reducer = function(state={tasks:[]},action){
       var taskIndex = state.tasks.findIndex(function(task){
         return task.id == action.data.id
       })
-      // var newTasks = state.tasks.slice(0,taskIndex)
-      //   .concat(Object.assign({},state.tasks[taskIndex],{isComplete:action.data.isComplete}))
-      //   .concat(state.tasks.slice(taskIndex+1))
       var newTasks = [
         ...state.tasks.slice(0,taskIndex),
         Object.assign({},state.tasks[taskIndex],{isComplete:action.data.isComplete}),
