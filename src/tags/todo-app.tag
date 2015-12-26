@@ -17,7 +17,7 @@
     }.bind(this))
 
     handleNewTask(task){
-      store.dispatch()
+      store.dispatch(actions.addTask(task))
     }
   </script>
 </todo-app>
