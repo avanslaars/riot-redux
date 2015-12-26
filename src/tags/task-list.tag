@@ -6,4 +6,8 @@
       {task.name}
     </li>
   </ul>
+
+  <script>
+    
+  </script>
 </task-list>
