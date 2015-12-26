@@ -62,7 +62,7 @@ function toggleComplete(id,isComplete){
       if (request.status >= 200 && request.status < 400) {
         dispatch(completeChanged(id, isComplete))
       } else {
-        
+        dispatch(completeChanged(id, !isComplete))
       }
     }
 
