@@ -7,6 +7,6 @@
     store.subscribe(function(){
       this.state = store.getState()
       this.update()
-    })
+    }.bind(this))
   </script>
 </todo-app>
