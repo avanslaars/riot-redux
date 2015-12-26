@@ -39,6 +39,7 @@ function addTask(newTask){
     request.onload = function(){
       var data = JSON.parse(request.responseText)
       dispatch(newTaskAdded(data.id, data.name))
+      dispatch(toggleLoading(false))
     }
 
     request.send(JSON.stringify({name:newTask}))
