@@ -23,5 +23,5 @@ var createStoreWithMiddleware = redux.compose(
 var reduxStore = createStoreWithMiddleware(reducer)
 
 document.addEventListener('DOMContentLoaded', () => {
-  riot.mount('*',{store:reduxStore})
+  riot.mount('todo-app',{store:reduxStore})
 })
