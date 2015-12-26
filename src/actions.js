@@ -23,6 +23,6 @@ function tasksLoaded(tasks){
   return {type:'TASKS_LOADED',data:tasks}
 }
 
-function toggleLoading(){
-  
+function toggleLoading(isLoading){
+
 }
