@@ -6,7 +6,9 @@
     var actions = require('../actions.js')
     var store = this.opts.store
 
-    this.on('mount')
+    this.on('mount',function(){
+      
+    })
 
     store.subscribe(function(){
       this.state = store.getState()
