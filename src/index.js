@@ -16,6 +16,8 @@ var createStoreWithMiddleware = redux.compose(
   redux.applyMiddleware(thunk)
 )(redux.createStore)
 
+var reduxStore = createStoreWithMiddleware(reducer)
+
 document.addEventListener('DOMContentLoaded', () => {
   riot.mount('*',{store:reduxStore})
 })
