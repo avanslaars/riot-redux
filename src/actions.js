@@ -15,3 +15,7 @@ function loadTasks(){
     request.send()
   }
 }
+
+function tasksLoaded(tasks){
+  
+}
