@@ -87,3 +87,7 @@ function showError(message){
     data: message
   }
 }
+
+function hideError(){
+  
+}
