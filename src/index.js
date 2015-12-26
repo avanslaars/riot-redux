@@ -16,6 +16,8 @@ var reducer = function(state={tasks:[]},action){
       return Object.assign({},state,{isLoading:action.data})
     case 'TASK_ADDED':
       return Object.assign({},state,{tasks:state.tasks.concat(action.data)})
+    case 'TASK_COMPLETION_CHANGED':
+      /*handle updating existing item*/
     default:
       return state
   }
