@@ -21,7 +21,7 @@
     }
 
     handleTaskCompletionChange(id, isComplete){
-      store.dispatch()
+      store.dispatch(actions.toggleComplete(id,isComplete))
     }
   </script>
 </todo-app>
