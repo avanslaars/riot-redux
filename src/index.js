@@ -24,7 +24,7 @@ var reducer = function(state={tasks:[]},action){
       //TODO 2: Update the isComplete flag on the target task
       //TODO 3: Create a new array with the updated task and the original tasks
       var newTasks = state.tasks.slice(0,taskIndex)
-        .concat(/*The updated task goes here*/)
+        .concat(Object.assign({},state.tasks[taskIndex],{isComplete:action.data.isComplete}))
         .concat(state.tasks.slice(taskIndex+1))
       //TODO 4: Create a new state object that uses the updated tasks array
     default:
