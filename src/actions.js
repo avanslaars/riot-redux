@@ -1,3 +1,7 @@
 module.exports = {
 
 }
+
+function loadTasks(){
+  
+}
