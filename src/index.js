@@ -13,7 +13,7 @@ var reducer = function(state={title:'Default title'},action){
 
 // var reduxStore = redux.createStore(reducer)
 var createStoreWithMiddleware = redux.compose(
-
+    redux.applyMiddleware(thunk)
 )
 
 document.addEventListener('DOMContentLoaded', () => {
