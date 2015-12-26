@@ -55,5 +55,6 @@ function newTaskAdded(id, name){
 function toggleComplete(id,isComplete){
   return function(dispatch, getState){
     var request = new XMLHttpRequest()
+    request.open('PATCH', 'URL GOES HERE', true)
   }
 }
