@@ -64,7 +64,8 @@ function toggleComplete(id,isComplete){
         dispatch(completeChanged(id, isComplete))
       } else {
         dispatch(completeChanged(id, !isComplete))
-        dispatch(showError("API Error"))
+        dispatch(tempErrorMessage("API Error"))
+
       }
     }
 
