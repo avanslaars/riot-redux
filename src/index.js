@@ -6,6 +6,7 @@ require('./tags/todo-app.tag')
 require('./tags/task-list.tag')
 require('./tags/loading-indicator.tag')
 require('./tags/task-form.tag')
+require('./tags/error-message.tag')
 
 var reducer = function(state={tasks:[]},action){
   console.log(action)
