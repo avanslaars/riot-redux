@@ -7,7 +7,7 @@
     var store = this.opts.store
 
     this.on('mount',function(){
-      
+      store.dispatch()
     })
 
     store.subscribe(function(){
