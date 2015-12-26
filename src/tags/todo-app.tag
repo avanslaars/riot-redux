@@ -1,5 +1,5 @@
 <todo-app>
-  <loading-indicator loading={}></loading-indicator>
+  <loading-indicator loading={this.state.isLoading}></loading-indicator>
   <task-list tasks={this.state.tasks}></task-list>
 
   <script>
