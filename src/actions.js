@@ -12,6 +12,7 @@ function loadTasks(){
         var data = JSON.parse(request.responseText)
         dispatch(tasksLoaded(data))
       }
+      dispatch(toggleLoading(false))
     }
     setTimeout(function(){
       request.send()
