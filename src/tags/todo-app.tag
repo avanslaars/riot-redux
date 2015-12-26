@@ -24,5 +24,9 @@
     handleTaskCompletionChange(id, isComplete){
       store.dispatch(actions.toggleComplete(id,isComplete))
     }
+
+    hideErrorMessage(){
+      
+    }
   </script>
 </todo-app>
