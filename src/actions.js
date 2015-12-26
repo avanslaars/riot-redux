@@ -12,7 +12,10 @@ function loadTasks(){
         dispatch(tasksLoaded(data))
       }
     }
-    request.send()
+    setTimeout(function(){
+      request.send()
+    }, 2000)
+
   }
 }
 
