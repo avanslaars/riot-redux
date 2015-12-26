@@ -11,7 +11,7 @@ var reducer = function(state={title:'Default title'},action){
   }
 }
 
-var reduxStore = redux.createStore(reducer)
+// var reduxStore = redux.createStore(reducer)
 
 document.addEventListener('DOMContentLoaded', () => {
   riot.mount('*',{store:reduxStore})
