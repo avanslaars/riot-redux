@@ -6,7 +6,7 @@
   <script>
     handleSubmit(){
       this.opts.addtask(this.newTask.value)
-      
+      this.newTask.value = ''
     }
   </script>
 </task-form>
