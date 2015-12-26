@@ -53,5 +53,7 @@ function newTaskAdded(id, name){
 }
 
 function toggleComplete(id,isComplete){
-  
+  return function(dispatch, getState){
+    
+  }
 }
