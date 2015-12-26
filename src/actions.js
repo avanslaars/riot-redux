@@ -82,6 +82,7 @@ function completeChanged(id, isComplete){
 
 function showError(message){
   return{
-    type: 'SHOW_ERROR'
+    type: 'SHOW_ERROR',
+    data: message
   }
 }
