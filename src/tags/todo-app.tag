@@ -6,6 +6,7 @@
 
     store.subscribe(function(){
       this.state = store.getState()
+      this.update()
     })
   </script>
 </todo-app>
