@@ -58,7 +58,9 @@ function toggleComplete(id,isComplete){
     request.open('PATCH', `http://localhost:3000/tasks/${id}`, true)
     request.setRequestHeader("Content-Type","application/json")
     request.onload = function(){
-
+      if (request.status >= 200 && request.status < 400) {
+        
+      }
     }
 
     request.send(JSON.stringify({isComplete:isComplete}))
