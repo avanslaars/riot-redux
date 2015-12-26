@@ -30,7 +30,7 @@ var reducer = function(state={tasks:[]},action){
     case 'SHOW_ERROR':
       return Object.assign({},state,{isError:true, errorMessage:action.data})
     case 'HIDE_ERROR':
-      
+      return Object.assign({},state,{isError:false, errorMessage:''})
     default:
       return state
   }
