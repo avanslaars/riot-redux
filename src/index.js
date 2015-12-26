@@ -11,6 +11,8 @@ var reducer = function(state={tasks:[]},action){
   switch(action.type){
     case 'TASKS_LOADED':
       return Object.assign({},state,{tasks:action.data})
+    case 'TOGGLE_LOADING':
+      /*set isLoading prop on state based on data passed in*/
     default:
       return state
   }
