@@ -13,8 +13,8 @@ var reducer = function(state={title:'Default title'},action){
 
 // var reduxStore = redux.createStore(reducer)
 var createStoreWithMiddleware = redux.compose(
-    redux.applyMiddleware(thunk)
-)
+  redux.applyMiddleware(thunk)
+)(redux.createStore)
 
 document.addEventListener('DOMContentLoaded', () => {
   riot.mount('*',{store:reduxStore})
