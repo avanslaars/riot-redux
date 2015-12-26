@@ -15,5 +15,9 @@
       this.state = store.getState()
       this.update()
     }.bind(this))
+
+    handleNewTask(task){
+      
+    }
   </script>
 </todo-app>
