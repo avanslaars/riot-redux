@@ -27,6 +27,8 @@ var reducer = function(state={tasks:[]},action){
         ...state.tasks.slice(taskIndex+1)
       ]
       return Object.assign({},state,{tasks:newTasks})
+    case 'SHOW_ERROR':
+      
     default:
       return state
   }
