@@ -1,5 +1,5 @@
 module.exports = {
-
+  loadTasks: loadTasks
 }
 
 function loadTasks(){
