@@ -24,5 +24,5 @@ function tasksLoaded(tasks){
 }
 
 function toggleLoading(isLoading){
-
+  return {type:'TOGGLE_LOADING', data: isLoading}
 }
