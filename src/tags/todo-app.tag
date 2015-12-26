@@ -26,7 +26,7 @@
     }
 
     hideErrorMessage(){
-      
+      store.dispatch(actions.hideError())
     }
   </script>
 </todo-app>
