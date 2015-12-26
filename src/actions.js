@@ -94,5 +94,7 @@ function hideError(){
 }
 
 function tempErrorMessage(message){
-  
+  return function(dispatch, getState){
+    
+  }
 }
