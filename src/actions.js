@@ -3,7 +3,7 @@ module.exports = {
 }
 
 function loadTasks(){
-  return function(){
-
+  return function(dispatch,getState){
+    
   }
 }
