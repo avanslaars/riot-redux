@@ -1,6 +1,6 @@
 <todo-app>
 
-  <task-list></task-list>
+  <task-list tasks={}></task-list>
 
   <script>
     var actions = require('../actions.js')
