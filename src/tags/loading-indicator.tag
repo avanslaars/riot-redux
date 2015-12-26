@@ -1,3 +1,3 @@
 <loading-indicator>
-  <img src="loading.gif"/>
+  <img src="loading.gif" show={}/>
 </loading-indicator>
