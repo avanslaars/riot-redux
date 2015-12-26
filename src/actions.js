@@ -47,3 +47,7 @@ function addTask(newTask){
     request.send(JSON.stringify({name:newTask}))
   }
 }
+
+function newTaskAdded(id, name){
+  
+}
