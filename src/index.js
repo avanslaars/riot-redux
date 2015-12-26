@@ -2,6 +2,9 @@ var riot = require('riot')
 var redux = require('redux')
 var thunk = require('redux-thunk')
 
+require('./tags/todo-app.tag')
+require('./tags/task-list.tag')
+
 var reducer = function(state={tasks:[]},action){
   console.log(action)
   switch(action.type){
