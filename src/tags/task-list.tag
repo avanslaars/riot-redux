@@ -9,7 +9,7 @@
 
   <script>
     handleCheck(evt){
-      this.opts.handlecheck()
+      this.opts.handlecheck(evt.target.id, evt.target.checked)
     }
   </script>
 </task-list>
