@@ -1,5 +1,5 @@
 <error-message>
-  <div show={}>
+  <div show={this.opts.iserror}>
     {this.opts.message}
   </div>
 </error-message>
