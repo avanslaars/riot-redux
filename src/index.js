@@ -17,7 +17,6 @@ var reducer = function(state={tasks:[]},action){
     case 'TASK_ADDED':
       return Object.assign({},state,{tasks:state.tasks.concat(action.data)})
     case 'TASK_COMPLETION_CHANGED':
-      //TODO 1: Use the passed in id to get the task's index in the array
       var taskIndex = state.tasks.findIndex(function(task){
         return task.id == action.data.id
       })
