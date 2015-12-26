@@ -24,7 +24,8 @@ var reducer = function(state={tasks:[]},action){
       //   .concat(Object.assign({},state.tasks[taskIndex],{isComplete:action.data.isComplete}))
       //   .concat(state.tasks.slice(taskIndex+1))
       var newTasks = [
-        ...state.tasks.slice(0,taskIndex)
+        ...state.tasks.slice(0,taskIndex),
+        Object.assign({},state.tasks[taskIndex],{isComplete:action.data.isComplete})
       ]
       return Object.assign({},state,{tasks:newTasks})
     default:
