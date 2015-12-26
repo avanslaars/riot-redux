@@ -17,7 +17,10 @@ var reducer = function(state={tasks:[]},action){
     case 'TASK_ADDED':
       return Object.assign({},state,{tasks:state.tasks.concat(action.data)})
     case 'TASK_COMPLETION_CHANGED':
-      /*handle updating existing item*/
+      //TODO 1: Use the passed in id to get the task's index in the array
+      //TODO 2: Update the isComplete flag on the target task
+      //TODO 3: Create a new array with the updated task and the original tasks
+      //TODO 4: Create a new state object that uses the updated tasks array
     default:
       return state
   }
