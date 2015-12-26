@@ -32,6 +32,6 @@ function toggleLoading(isLoading){
 
 function addTask(newTask){
   return function(dispatch,getState){
-    
+    dispatch(toggleLoading(true))
   }
 }
