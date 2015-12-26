@@ -1,5 +1,7 @@
 <todo-app>
 
+  <task-list></task-list>
+
   <script>
     var actions = require('../actions.js')
     var store = this.opts.store
