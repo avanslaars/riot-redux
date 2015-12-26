@@ -69,6 +69,10 @@ function toggleComplete(id,isComplete){
 
 function completeChanged(id, isComplete){
   return{
-    type:'TASK_COMPLETION_CHANGED'
+    type:'TASK_COMPLETION_CHANGED',
+    data:{
+      id: id,
+      isComplete: isComplete
+    }
   }
 }
