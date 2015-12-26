@@ -17,5 +17,5 @@ function loadTasks(){
 }
 
 function tasksLoaded(tasks){
-  return {}
+  return {type:'TASKS_LOADED'}
 }
