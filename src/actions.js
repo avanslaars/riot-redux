@@ -37,7 +37,7 @@ function addTask(newTask){
     request.open('POST', 'http://localhost:3000/tasks', true)
     request.setRequestHeader("Content-Type","application/json")
     request.onload = function(){
-
+      var data = JSON.parse(request.responseText)
     }
 
     request.send(JSON.stringify({name:newTask}))
