@@ -4,7 +4,7 @@
   </div>
   <script>
     hideMessage(){
-      
+      this.opts.hide()
     }
   </script>
 </error-message>
