@@ -51,3 +51,7 @@ function addTask(newTask){
 function newTaskAdded(id, name){
   return {type:'TASK_ADDED', data:{id:id,name:name}}
 }
+
+function toggleComplete(id,isComplete){
+  
+}
