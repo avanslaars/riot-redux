@@ -9,6 +9,7 @@ function loadTasks(){
     request.onload = function() {
       if (request.status >= 200 && request.status < 400) {
         var data = JSON.parse(request.responseText)
+        dispatch()
       }
     }
     request.send()
