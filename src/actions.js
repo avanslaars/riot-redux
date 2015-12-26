@@ -34,5 +34,6 @@ function addTask(newTask){
   return function(dispatch,getState){
     dispatch(toggleLoading(true))
     var request = new XMLHttpRequest()
+    request.open('POST', 'http://localhost:3000/tasks', true)
   }
 }
