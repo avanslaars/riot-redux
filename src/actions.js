@@ -38,6 +38,7 @@ function addTask(newTask){
     request.setRequestHeader("Content-Type","application/json")
     request.onload = function(){
       var data = JSON.parse(request.responseText)
+      dispatch()
     }
 
     request.send(JSON.stringify({name:newTask}))
