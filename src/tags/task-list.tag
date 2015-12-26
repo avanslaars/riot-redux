@@ -9,7 +9,7 @@
 
   <script>
     handleCheck(evt){
-      
+      this.opts.handlecheck()
     }
   </script>
 </task-list>
