@@ -2,7 +2,7 @@ var riot = require('riot')
 var redux = require('redux')
 var thunk = require('redux-thunk')
 
-var reducer = function(state={title:'Default title'},action){
+var reducer = function(state={tasks:[]},action){
   console.log(action)
   switch(action.type){
 
