@@ -6,7 +6,7 @@ var reducer = function(state={tasks:[]},action){
   console.log(action)
   switch(action.type){
     case 'TASKS_LOADED':
-      /*Handle tasks loaded*/
+      return Object.assign({},state,{tasks:action.data})
     default:
       return state
   }
