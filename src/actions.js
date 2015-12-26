@@ -49,5 +49,5 @@ function addTask(newTask){
 }
 
 function newTaskAdded(id, name){
-  
+  return {type:'TASK_ADDED'}
 }
