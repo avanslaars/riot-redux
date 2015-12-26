@@ -4,6 +4,7 @@ var thunk = require('redux-thunk')
 
 require('./tags/todo-app.tag')
 require('./tags/task-list.tag')
+require('./tags/loading-indicator.tag')
 
 var reducer = function(state={tasks:[]},action){
   console.log(action)
