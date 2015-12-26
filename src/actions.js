@@ -1,6 +1,7 @@
 module.exports = {
   loadTasks: loadTasks,
-  addTask: addTask
+  addTask: addTask,
+  toggleComplete: toggleComplete
 }
 
 function loadTasks(){
