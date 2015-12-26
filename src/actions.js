@@ -89,5 +89,5 @@ function showError(message){
 }
 
 function hideError(){
-  
+  return { type: 'HIDE_ERROR' }
 }
