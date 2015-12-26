@@ -1,5 +1,5 @@
 <task-list>
   <ul>
-    <li></li>
+    <li each={}></li>
   </ul>
 </task-list>
