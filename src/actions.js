@@ -1,5 +1,6 @@
 module.exports = {
-  loadTasks: loadTasks
+  loadTasks: loadTasks,
+  addTask: addTask
 }
 
 function loadTasks(){
@@ -30,5 +31,5 @@ function toggleLoading(isLoading){
 }
 
 function addTask(newTask){
-  
+
 }
