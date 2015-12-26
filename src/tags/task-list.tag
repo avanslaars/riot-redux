@@ -8,6 +8,8 @@
   </ul>
 
   <script>
-    
+    handleCheck(evt){
+      
+    }
   </script>
 </task-list>
