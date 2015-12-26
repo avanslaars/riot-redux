@@ -14,7 +14,7 @@ var reducer = function(state={tasks:[]},action){
     case 'TOGGLE_LOADING':
       return Object.assign({},state,{isLoading:action.data})
     case 'TASK_ADDED':
-      
+      return Object.assign({},state,{tasks:state.tasks.concat(action.data)})
     default:
       return state
   }
