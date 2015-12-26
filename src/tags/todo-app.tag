@@ -1,6 +1,6 @@
 <todo-app>
   <loading-indicator loading={this.state.isLoading}></loading-indicator>
-  <task-form></task-form>
+  <task-form addtask={}></task-form>
   <task-list tasks={this.state.tasks}></task-list>
 
   <script>
