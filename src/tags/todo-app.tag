@@ -19,5 +19,9 @@
     handleNewTask(task){
       store.dispatch(actions.addTask(task))
     }
+
+    handleTaskCompletionChange(id, isComplete){
+      
+    }
   </script>
 </todo-app>
