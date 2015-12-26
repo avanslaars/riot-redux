@@ -66,3 +66,7 @@ function toggleComplete(id,isComplete){
     request.send(JSON.stringify({isComplete:isComplete}))
   }
 }
+
+function completeChanged(id, isComplete){
+  
+}
