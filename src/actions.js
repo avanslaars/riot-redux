@@ -92,3 +92,7 @@ function showError(message){
 function hideError(){
   return { type: 'HIDE_ERROR' }
 }
+
+function tempErrorMessage(message){
+  
+}
