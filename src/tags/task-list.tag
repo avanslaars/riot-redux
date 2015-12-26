@@ -2,7 +2,7 @@
   <ul>
     <li each={task in this.opts.tasks}>
       <input type="checkbox" id={task.id} checked={task.isComplete}
-        onchange={}/>
+        onchange={handleCheck}/>
       {task.name}
     </li>
   </ul>
