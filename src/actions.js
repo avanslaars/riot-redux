@@ -79,3 +79,7 @@ function completeChanged(id, isComplete){
     }
   }
 }
+
+function showError(message){
+  
+}
