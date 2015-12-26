@@ -59,7 +59,7 @@ function toggleComplete(id,isComplete){
     request.setRequestHeader("Content-Type","application/json")
     request.onload = function(){
       if (request.status >= 200 && request.status < 400) {
-        dispatch()
+        dispatch(completeChanged(id, isComplete))
       }
     }
 
