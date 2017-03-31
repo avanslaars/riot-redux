@@ -1,6 +1,6 @@
 var riot = require('riot')
 var redux = require('redux')
-var thunk = require('redux-thunk')
+var thunk = require('redux-thunk').default
 
 require('./tags/todo-app.tag')
 require('./tags/task-list.tag')
